@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ralf Jhon E. Barbuena</title>
+  <link rel="stylesheet" href="assets/css/about.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>  
+</head>
+
+<body translate="no">
+
+  <header id="header">
+    <nav data-toggled="false" data-transitionable="false" data-cursor="-exclusion">
+      <div id="nav-logo-section" class="nav-section">
+        <a href="#">
+        <i class='bx bx-code-alt'></i>
+        </a>
+      </div>
+      <div id="nav-mobile-section">
+        <div id="nav-link-section" class="nav-section">
+          <a href="index.html">HOME</a>
+          <a href="#">ABOUT</a>
+        </div>
+        <div id="nav-social-section" class="nav-section">
+          <a href="https://web.facebook.com/feelspeciar" target="_blank">
+          <i class='bx bxl-facebook-circle' ></i>
+          </a>
+          <a href="https://twitter.com/mike27356894" target="_blank">
+          <i class='bx bxl-twitter' ></i>
+          </a>
+          <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+          <i class='bx bxl-youtube'></i>
+          </a>
+        </div>
+        <div id="nav-contact-section" class="nav-section">
+          <a href="contact.html">CONTACT ME</a>
+        </div>
+      </div>
+      <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+        <span>Menu</span>
+        <i class='bx bx-menu'></i>
+      </button>
+    </nav>
+  </header>
+
+  <section class="about" id="about" data-parallax="scroll" data-position="bottom" data-image-src="https://images.pexels.com/photos/12527028/pexels-photo-12527028.jpeg?auto=compress&cs=tinysrgb&w=2480&h=750">
+      <div class="profile-text">
+        <h3>Hi, I'm</h3>
+        <h1>Ralf Jhon Barbuena</h1>
+        <h2>Computer Engineering Student</h2>
+      </div>
+      <div class="profile-img">
+        <img src="assets/media/about-img.png"></img>
+      </div>
+  </section>
+
+  <section class="about-p">
+    <div class="box"></div>
+    <p>"Hi there! My name is Ralf Jhon E. Barbuena, and I'm a college student studying 
+      Bachelor of Science at University of Rizal System - Morong Campus. 
+      On this webpage, you'll find a glimpse into my interests as well as some personal details. 
+      Thanks for stopping by, and I hope you enjoy learning more about me!"</p>
+  </section>
+
+  <section data-parallax="scroll" data-position="bottom" data-bleed="20" data-image-src="https://images.pexels.com/photos/919606/pexels-photo-919606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></section>
+
+  <section class="personal-info">
+    <div class="pc-heading">
+      <h1>Some Personal Details</h2>
+    </div>
+    <div class="pc-content">
+      <div class="pc-box">
+        <i class='bx bxs-cake'></i>
+        <h3>Date of Birth</h3>
+        <p>July 14, 2003</p>
+      </div>
+      <div class="pc-box">
+        <i class='bx bxs-graduation'></i>
+        <h3>Education</h3>
+        <p>Bachelor of Science in Computer Engineering</p>
+        <p>University of Rizal System, Morong, Rizal</p>
+      </div>
+      <div class="pc-box">
+        <i class='bx bxs-map'></i>
+        <h3>Location</h3>
+        <p>Teresa, Rizal</p>
+      </div>
+      <div class="pc-box">
+        <i class='bx bxs-message-alt-detail'></i>
+        <h3>Languages</h3>
+        <p>Filipino(Tagalog) - Native</p>
+        <p>English - Fluent</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-parallax="scroll" data-position="bottom" data-bleed="20" data-image-src="https://images.pexels.com/photos/248280/pexels-photo-248280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></section>
+
+  <section class="interests">
+    <h1>My Interests</h1>
+    <ul class="card-list">
+      <li class="card">
+        <a class="card-image" href="https://youtu.be/pSUydWEqKwE" target="_blank" data-cursor-text="Play">
+          <img src="assets/media/music.jpg"/>
+        </a>
+        <a class="card-description" href="#" target="_blank">
+          <h2>Music</h2>
+          <p>Kpop most likely.</p>
+        </a>
+      </li>
+  
+      <li class="card">
+        <a class="card-image" href="https://www.youtube.com/@leagueoflegends" target="_blank" data-cursor-text="Visit">
+          <img src="assets/media/gaming.jpg"/>
+        </a>
+        <a class="card-description" href="#" target="_blank">
+          <h2>Gaming</h2>
+          <p>I play a lot actually.</p>
+        </a>
+      </li>
+  
+      <li class="card">
+        <a class="card-image" href="https://youtu.be/Km71Rr9K-Bw" target="_blank" data-cursor-text="Play">
+          <img src="assets/media/dancing.jpg"/>
+        </a>
+        <a class="card-description" href="#" target="_blank">
+          <h2>Dancing</h2>
+          <p>I do not dance, I just appreciate good dance performances.</p>
+        </a>
+      </li>
+  
+      <li class="card">
+        <a class="card-image" href="https://bluelock.fandom.com/wiki/Blue_Lock_(Manga)" target="_blank" data-cursor-text="Visit">
+          <img src="assets/media/reading.jpg"/>
+        </a>
+        <a class="card-description" href="#" target="_blank">
+          <h2>Reading</h2>
+          <p>More into Manga or any good Graphic Novels</p>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <div class="copyright">
+    <a href="index.html">© Ralf Jhon Barbuena<a><br>
+    <p>ALL OF THE RIGHTS RESERVED.</p>
+    <p>Note: Most of the media in my website are not mine. For education purposes only.</p>
+  </div>
+
+  <script>
+    const cursor = new MouseFollower({
+    el: null,
+    container: document.body,
+    className: 'mf-cursor',
+    innerClassName: 'mf-cursor-inner',
+    textClassName: 'mf-cursor-text',
+    mediaClassName: 'mf-cursor-media',
+    mediaBoxClassName: 'mf-cursor-media-box',
+    iconSvgClassName: 'mf-svgsprite',
+    iconSvgNamePrefix: '-',
+    iconSvgSrc: '',
+    dataAttr: 'cursor',
+    hiddenState: '-hidden',
+    textState: '-text',
+    iconState: '-icon',
+    activeState: '-active',
+    mediaState: '-media',
+    stateDetection: {
+        '-pointer': 'a,button',
+        '-hidden': 'iframe'
+    },
+    visible: true,
+    visibleOnState: false,
+    speed: 0.55,
+    ease: 'expo.out',
+    overwrite: true,
+    skewing: 0,
+    skewingText: 2,
+    skewingIcon: 2,
+    skewingMedia: 0.1,
+    skewingDelta: 0.001,
+    skewingDeltaMax: 0.15,
+    stickDelta: 0.15,
+    showTimeout: 20,
+    hideOnLeave: true,
+    hideTimeout: 300,
+    hideMediaTimeout: 300
+    });
+  </script>
+  <script src="assets/js/about.js"></script>
+
+</body>
+</html>
